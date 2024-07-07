@@ -1,0 +1,9 @@
+[Unit]
+Description=Disable Wake On Lan
+ 
+[Service]
+Type=oneshot
+ExecStart = /usr/sbin/ethtool -s eno1 wol d
+ 
+[Install]
+WantedBy=basic.target
