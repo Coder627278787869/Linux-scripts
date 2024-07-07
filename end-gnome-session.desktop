@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Iskljuci kompish
+Exec=gnome-session-quit --power-off
+Comment=Shut down
+Type=Application
+Terminal=false
+Icon=/usr/share/icons/Yaru/32x32/actions/gnome-shutdown.png
+
+X-Desktop-File-Install-Version=0.26
